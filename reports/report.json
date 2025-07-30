@@ -1,0 +1,643 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;successful-login-with-valid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Successful login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 313942599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "features\\step-definitions\\login.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3900706000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user logs in with username \"problem_user\" and password \"secret_sauce\"",
+            "match": {
+              "location": "features\\step-definitions\\login.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154341300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user should see the dashboard",
+            "match": {
+              "location": "features\\step-definitions\\login.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14913899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1158057999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@valid",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;successful-login-with-valid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "Successful login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 290417600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "features\\step-definitions\\login.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3282229400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user logs in with username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "location": "features\\step-definitions\\login.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139985399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user should see the dashboard",
+            "match": {
+              "location": "features\\step-definitions\\login.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8287500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1157708399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@valid",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login;user-should-not-login-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "User should not login with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 284175099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "features\\step-definitions\\login.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3272360200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "the user logs in with invalid credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83087299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the user should not see the dashboard",
+            "match": {
+              "location": "features\\step-definitions\\login.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4663499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1132632699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@invalidLogin",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "uri": "features\\f01-login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "cart-actions;add-item-to-cart",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Add item to cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 282442399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user logs in with username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "location": "features\\step-definitions\\login.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3735594700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user adds the first product to the cart",
+            "match": {
+              "location": "features\\step-definitions\\addtocard.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37173299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the cart badge should show 1 item",
+            "match": {
+              "location": "features\\step-definitions\\addtocard.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4479299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1165440199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@add",
+            "line": 6
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "cart-actions;remove-item-from-cart",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Remove item from cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 277470300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user logs in with username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "location": "features\\step-definitions\\login.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3516465599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user click on cart icon",
+            "match": {
+              "location": "features\\step-definitions\\addtocard.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75412200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "click on remove icon",
+            "match": {
+              "location": "features\\step-definitions\\addtocard.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47133400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the user should not see this item in cart",
+            "match": {
+              "location": "features\\step-definitions\\addtocard.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5058100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1163870399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@remove",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "cart-actions",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Cart actions",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "uri": "features\\f02-addToCard.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "product-details;view-product-details",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "View product details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 288714400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user logs in with username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "location": "features\\step-definitions\\login.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3489690699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user clicks on a product title",
+            "match": {
+              "location": "features\\step-definitions\\productDetails.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46016799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the product details page should display the correct product name",
+            "match": {
+              "location": "features\\step-definitions\\productDetails.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7100100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1164817000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@product",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "product-details",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Product Details",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "uri": "features\\f03-productDetails.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "checkout-functionality;user-completes-checkout-successfully",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User completes checkout successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 278872499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user logs in with username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "location": "features\\step-definitions\\login.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3587574500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "adds \"Sauce Labs Bolt T-Shirt\" to the cart",
+            "match": {
+              "location": "features\\step-definitions\\Checkout.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61362600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "proceeds to the checkout page",
+            "match": {
+              "location": "features\\step-definitions\\Checkout.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34816299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "fills in checkout information with first name \"star\", last name \"link\", and postal code \"12345\"",
+            "match": {
+              "location": "features\\step-definitions\\Checkout.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84555699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user confirms the order",
+            "match": {
+              "location": "features\\step-definitions\\Checkout.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1202100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the order confirmation page and successfull message should display",
+            "match": {
+              "location": "features\\step-definitions\\Checkout.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1799299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1138607900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@checkout",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "checkout-functionality",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Checkout functionality",
+    "tags": [
+      {
+        "name": "@regression",
+        "line": 1
+      }
+    ],
+    "uri": "features\\f04-checkout.feature"
+  }
+]

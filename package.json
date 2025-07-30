@@ -1,0 +1,29 @@
+{
+  "name": "vodafone-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require-module ts-node/register --require step-definitions/**/*.ts --require support/**/*.ts --format json:./reports/report.json features/**/*.feature",
+    "report": "ts-node generate-report.ts"
+  },
+  "cucumber": {
+    "defaultTimeout": 60000
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.1.0",
+    "@playwright/test": "^1.54.1",
+    "cucumber-html-reporter": "^7.2.0",
+    "multiple-cucumber-html-reporter": "^3.9.3",
+    "open": "^10.2.0",
+    "playwright": "^1.54.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.9.0"
+  }
+}
